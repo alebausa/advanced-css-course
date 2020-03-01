@@ -11,15 +11,9 @@
 
 html {
   font-size: 62.5%; 
-  /*Because we don't want 16px, we want 10px*/
+  /*Because we don't want 16px (which would be 100%) we want 10px. This defines what 1rem is */
 }
 
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  /* font-size: 16px; */
-  line-height: 1.7;
-  color: $color-grey-dark;
-  padding: 3rem;
   box-sizing: border-box;
 }
